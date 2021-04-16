@@ -1,0 +1,7 @@
+.tarjetas {
+	display: grid;
+	grid-template-columns: repeat(3, 240px);
+	gap: 1rem;
+	width: fit-content;
+	margin: 0 auto;
+};

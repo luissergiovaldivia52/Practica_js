@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Full Stack Development\\FT-M2"
+		},
+		{
+			"path": "..\\Henry_practica\\EDTeam"
+		},
+		{
+			"path": "..\\..\\Full Stack Development\\CP-M2-10"
+		},
+		{
+			"path": "..\\..\\Full Stack Development\\CP-M2-10-pld"
+		},
+		{
+			"path": "..\\..\\Full Stack Development\\RepasoM2-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CP-M2-10"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+
+			{
+				"type": "chrome",
+				"request": "launch",
+				"name": "Launch Chrome against localhost",
+				"url": "http://localhost:3000",
+				"webRoot": "${workspaceFolder}"
+			}
+		]
+	}
+}

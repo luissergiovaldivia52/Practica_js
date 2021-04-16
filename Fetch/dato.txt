@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=-j50jOzTHcI&ab_channel=Bluuweb%21
+
+http://www.omdbapi.com/?apikey=20dac387&s=
+
+20dac387
+
+http://www.omdbapi.com/?a4247724=20dac387&s=superman
+
+http://www.omdbapi.com/?apikey=20dac387&s=superman
+
+http://www.omdbapi.com/?apikey=a4247724&s=superman
+<img src="${data.Serch[0].Poster}" with="100px" class="img-fluid rounded-circle" alt="">

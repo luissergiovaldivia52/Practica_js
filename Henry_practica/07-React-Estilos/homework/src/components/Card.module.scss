@@ -1,0 +1,41 @@
+.tarjeta {
+	border: solid 1px #c3c3c3;
+	border-radius: 0.5rem;
+	width: 240px;
+	padding: 0.5rem 1rem;
+    position: relative;
+
+    .boton{
+        position: absolute;
+        top: 0.5rem;
+        right: 00.5rem;
+        border-color: crimson;
+        color: crimson;
+        width: 2rem;
+        height: 2rem ;
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            background-color: blue;
+            color: white;
+        }
+    }
+
+	.dato {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+        justify-content: space-between;
+
+		section {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			+ section {
+				margin-left: 1rem;
+			}
+		}
+	}
+}

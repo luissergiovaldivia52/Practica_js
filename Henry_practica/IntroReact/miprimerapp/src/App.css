@@ -1,0 +1,69 @@
+.App {
+	text-align: center;
+}
+.tipo {
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.wrapper {
+	border-radius: 1rem;
+	width: 240px;
+	padding: 0.5rem 1rem;
+	background-color: aquamarine;
+	border: 1px solid salmon;
+	/* position: relative; */
+	border: 2px blue;
+	margin: 0;
+	display: grid;
+
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 100px;
+}
+
+.card {
+	margin: solid 1px;
+	border-radius: 0.5rem;
+	width: 240px;
+	/* width: auto; */
+	padding: 0.5rem 1rem;
+	background-color: aquamarine;
+	border: 1px solid salmon;
+	position: relative;
+	text-decoration: none;
+}
+
+.cards {
+	display: block;
+	grid-template-columns: 200 px, 200px, 200px;
+	/* gap: 1rem; */
+	width: fit-content;
+	grid-auto-rows: 200px;
+}
+
+.box1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.box2 {
+	grid-column-start: 1;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
