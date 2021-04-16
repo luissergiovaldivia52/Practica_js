@@ -5,10 +5,10 @@ var app = express();
 let port = 3000;
 
 app.get('/name/:user_name', function (req, res) {
-    res.send(200);
+    res.status(200);
     res.set('Content-type', 'text/html');
     res.end('<html><body>' +
-        '<h1>Hello' +
+        '<h1>Hello  ' +
         req.params.user_name + '</h1>' +
         '</body></html>'
     );
