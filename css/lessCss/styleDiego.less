@@ -1,0 +1,19 @@
+@primaryColor: #ffff01;
+@color-black: #000000;
+
+@radius: 8px;
+@btn-radius: @radius;
+
+body {
+        background-color: black;
+}
+
+.btn {
+    border-radius: @btn-radius;
+    background-color: @primaryColor;
+    color: @color-black;
+}
+
+.btn:hover {
+    background-color: saturate(@primaryColor, 50%);
+}

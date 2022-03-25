@@ -1,0 +1,38 @@
+.container {
+  /* grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px;
+
+    grid-column-gap: 25px;
+    grid-row-gap: 25px; */
+  background-color: #af47ff;
+  padding: 10px;
+  width: 900px;
+
+  /* padding: 4px; */
+}
+
+.child {
+    background-color: brown;
+    padding: 30px;
+}
+
+.box {
+    background-color: #f3ff47;
+    padding: 20px;
+    border: 2px solid #333;
+    border-style:solid ;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}

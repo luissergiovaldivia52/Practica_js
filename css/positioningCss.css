@@ -1,0 +1,55 @@
+.parent {
+    background-color: #af47ff;
+    padding: 30px;
+    width: 300px;
+}
+/* 
+.child {
+    background-color: #ff4797;
+    padding: 30px;
+
+    
+} */
+
+
+.child {
+    background-color: #ff4797;
+    padding: 30px;
+    /* position: relative; */
+    /* position: static; */
+}
+
+/* .box {
+    background-color: #f3ff47;
+    padding: 30px;
+    border: 2px solid #333;
+    border-style: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+} */
+
+.box {
+    background-color: #f3ff47;
+    padding: 30px;
+    border: 2px solid #333;
+    border-style: dotted;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    
+    /* position: relative;
+    top: -60px; 
+    left: 180px; */
+    
+    /* position: absolute; */
+    position: fixed;
+    /* top:0px;
+    left: 0px; */
+    top: 0;
+    left: 0;
+    /* top: 14px;
+    left: 50px; */
+
+
+}
